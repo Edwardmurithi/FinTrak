@@ -1,0 +1,19 @@
+# Backend and Django Framework
+django==5.1.5
+djangorestframework>=3.13,<4.0
+psycopg2>=2.9,<3.0
+stripe>=2.56,<3.0
+django-cors-headers>=3.7,<4.0
+python-dotenv>=0.19,<1.0
+django-allauth>=0.44,<1.0
+djangorestframework-simplejwt>=5.0,<6.0
+
+# Development Tools (Optional but recommended for maintaining code quality)
+ipython>=7.30,<8.0
+black>=22.0,<23.0
+pylint>=2.12,<3.0
+flake8>=4.0,<5.0
+
+# Optional: Deployment Tools
+gunicorn>=20.1,<21.0
+whitenoise>=5.3,<6.0
